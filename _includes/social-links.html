@@ -101,6 +101,12 @@
         </a>
     {% endif %}
 
+    {% if site.paypal %}
+        <a class="link" data-title="paypal.me/{{ site.twitter }}" href="https://paypal.me/{{ site.twitter }}" target="_blank">
+            <svg class="icon icon-paypal"><use xlink:href="#icon-paypal"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.vimeo %}
         <a class="link" data-title="vimeo.com/{{ site.vimeo }}" href="https://vimeo.com/{{ site.vimeo }}" target="_blank">
             <svg class="icon icon-vimeo"><use xlink:href="#icon-vimeo"></use></svg>
