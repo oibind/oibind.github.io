@@ -15,18 +15,6 @@ url: https://aoibh.in
 
 permalink: /:title/
 
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
-
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
-
-# if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: # enter this from your disqus account
-  categories: # only show disqus for posts that have these categories
-
 # if you don't have any of social below, comment the line
 facebook: oibind
 twitter: oibind
@@ -40,62 +28,17 @@ keybase: oibind
 tumblr: oibind
 paypal: oibind
 
-authors:
-  oibind:
-    name: ind. aoibhinn nic aoidh
-    bio: it's pronounced a-veen.
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: oibind
-
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
 width: normal
 
-# if you do/don't need pagination, toggle 'enabled' between true/false below
-pagination:
-  enabled: false
-  sort_reverse: true # display recent posts first
-  title: ":title" # Changing this will mess up the header display logic
-  per_page: 5
-  permalink: "/:num/" # pagination link that will be appended
-
-# do you want to show the "read time" of the posts?
-read-time: true
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
-
-# show author block at the end of a post ?
-show-author: true
-
 # do you want some animations?
 animation: true
-
-# add default values to specific pages or layouts
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
-    values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
 
 plugins:
   - jekyll-seo-tag
   - jemoji
-  - jekyll-paginate-v2
-
-jekyll-mentions:
-  base_url: https://github.com
 
 compress_html:
   ignore:
