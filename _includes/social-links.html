@@ -41,6 +41,12 @@
         </a>
     {% endif %}
 
+    {% if site.hackerrank %}
+        <a class="link" data-title="hackerrank.com/{{ site.hackerrank }}" href="https://hackerrank.com/{{ site.hackerrank}}" target="_blank">
+            <svg class="icon icon-hackerrank"><use xlink:href="#icon-hackerrank"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.keybase %}
         <a class="link" data-title="keybase.io/{{ site.keybase }}" href="https://keybase.io/{{ site.keybase }}" target="_blank">
             <svg class="icon icon-keybase"><use xlink:href="#icon-keybase"></use></svg>
