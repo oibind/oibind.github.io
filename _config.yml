@@ -16,13 +16,11 @@ url: https://aoibh.in
 permalink: /:title/
 
 # if you don't have any of social below, comment the line
-linkedin: oibind
+
 github: oibind
 medium: oibind
 email: aoibhinn.nic.aoidh@gmail.com
-keybase: oibind
-paypal: oibind
-monero: 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbS1dRcHUafJvJu34MwD
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
